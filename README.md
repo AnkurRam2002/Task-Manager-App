@@ -1,3 +1,24 @@
+<h1 align="center">Next.js Task Manager App</h1>
+This project is a task manager application built using Next.js version 14. It allows users to create, view, update, and delete tasks, providing a simple and intuitive user interface.
+
+<h3>Features</h3>
+
+- Task Management: Create, view, update, and delete tasks.
+- Server-side Rendering (SSR): Utilize Next.js for server-side rendering to improve performance and SEO.
+- Dynamic Routing: Implement dynamic routing for displaying individual task details.
+- Responsive Design: Ensure compatibility and usability across various devices and screen sizes.
+
+<h3>Technologies Used</h3>
+
+- Next.js 14: A React framework for building server-rendered applications.
+- React.js: A JavaScript library for building user interfaces.
+- HTML/CSS: Frontend markup and styling for the application.
+- JavaScript/JSX: Programming language and syntax used for React components.
+
+
+
+<br>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
