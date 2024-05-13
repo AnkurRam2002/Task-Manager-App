@@ -4,7 +4,7 @@ async function getTickets() {
 
     await new Promise(resolve => setTimeout(resolve, 1500)); // simulate slow connection
 
-    const res = await fetch('http://localhost:4000/tickets', {
+    const res = await fetch('https://your-api-domain.com/tickets', {
         next: {
             revalidate: 0
         }
