@@ -4,7 +4,7 @@ async function getTickets() {
 
     await new Promise(resolve => setTimeout(resolve, 1500)); // simulate slow connection
 
-    const res = await fetch('http://127.0.0.1:4000/tickets', {
+    const res = await fetch('https://task-manager-app-1-y3zp.onrender.com/tickets', {
         next: {
             revalidate: 0
         }
