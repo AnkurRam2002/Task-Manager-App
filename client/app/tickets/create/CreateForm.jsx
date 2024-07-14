@@ -17,7 +17,7 @@ export default function CreateForm() {
 
     const newTicket = { title, body, priority, user_email: 'mario@netninja.dev' }
 
-    const res = await fetch('http://localhost:4000/tickets', {
+    const res = await fetch('https://task-manager-app-1-y3zp.onrender.com/tickets', {
       method: "POST",
       headers: {"Content-Type": "application/json"},
       body: JSON.stringify(newTicket)
